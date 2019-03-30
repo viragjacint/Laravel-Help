@@ -1,0 +1,21 @@
+This Method Installs Homestead per project to be able to use different global vars for each project. 
+
+Create New Project with Composer
+composer create-project --prefer-dist laravel/laravel project_name
+
+Inside the new project folder add Homestead as a dependency
+composer require laravel/homestead --dev
+
+Install Homestead
+vendor/bin/homestead make
+
+Add SSH Key
+ssh-keygen -t rsa -C "your-email@gmail.com"
+
+That should be it! Run Vagrant
+vagrant up
+
+
+
+
+

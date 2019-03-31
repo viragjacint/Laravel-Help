@@ -1,0 +1,2 @@
+Quickly whip up a new resourcful controller and assign a model to it
+php artisan make:controller PostController -r -m Post

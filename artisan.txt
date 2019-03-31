@@ -1,2 +1,6 @@
 Quickly whip up a new resourcful controller and assign a model to it
 php artisan make:controller PostController -r -m Post
+
+Create migration and table
+php artisan make:migration create_post_table
+php artisan migrate
